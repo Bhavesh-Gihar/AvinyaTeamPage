@@ -15,6 +15,7 @@ import shirishti from '../images/Shirishti.png'
 import mehul from '../images/Mehul.jpg'
 import kapil from '../images/Kapil Aggarwal.png'
 import naman from '../images/Naman.jpg'
+import jishnu from '../images/Madhur.jpg'
 import priyanshi from '../images/Priyanshi Goel.jpg'
 import krati from '../images/Krati Jain.jpg'
 import aditya from '../images/Aditya Bhalla.jpg'
@@ -306,6 +307,26 @@ function teamMembers() {
               <img className="teamMemberImage" src={harshit} alt="Harshit?"></img>
               <div className="teamMemberName">
                 <p className="firstName">Harshit ?</p>
+                <p className="lastName">lastname</p>
+              </div>
+              <div className="teamMemberSocialMedia">
+                <a className="teamMemberLink" href="/"><IoLogoFacebook className="icons"/></a>
+                <a className="teamMemberLink" href="/"><AiFillInstagram className="icons"/></a>
+                <a className="teamMemberLink" href="/"><BsTwitter className="icons"/></a>
+                <a className="teamMemberLink" href="/"><BsLinkedin className="icons"/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="teamPosition">
+          <p>Design Head</p>
+          <div className="teamMemberCardContainer">
+            <div className="teamMemberCard">
+              <img className="teamMemberImage" src={jishnu} alt="Jishnu"></img>
+              <div className="teamMemberName">
+                <p className="firstName">Jishnu</p>
                 <p className="lastName">lastname</p>
               </div>
               <div className="teamMemberSocialMedia">
